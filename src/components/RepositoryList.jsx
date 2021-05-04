@@ -1,5 +1,7 @@
 import { RepositoryItem } from "./RepositoryItem";
 
+import '../styles/repositories.scss'
+
 const repository = {
   name: 'nc-shiny-counter-backend',
   description: 'Shiny counter for pokémon games',
