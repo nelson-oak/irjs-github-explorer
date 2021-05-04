@@ -1,10 +1,10 @@
 export function RepositoryItem(props) {
   return (
     <li>
-      <strong>{props.repository.name || 'nc-no-name'}</strong>
+      <strong>{props.repository.name}</strong>
       <p>{props.repository.description}</p>
 
-      <a href={props.repository.link} target="_blank">Acessar o repositório</a>
+      <a href={props.repository.html_url} target="_blank">Acessar o repositório</a>
     </li>
   );
 }
