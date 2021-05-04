@@ -1,4 +1,10 @@
-const repositoryName = 'shiny-counter';
+import { RepositoryItem } from "./RepositoryItem";
+
+const repository = {
+  name: 'nc-shiny-counter-backend',
+  description: 'Shiny counter for pokémon games',
+  link: 'https://github.com/nelson-oak/nc-shiny-counter-backend',
+}
 
 export function RepositoryList() {
   return (
@@ -6,33 +12,11 @@ export function RepositoryList() {
       <h1>Lista de repositórios</h1>
 
       <ul>
-        <li>
-          <strong>{repositoryName}</strong>
-          <p>Shiny counter for pokémon games</p>
-
-          <a href="#">Link para o repositório</a>
-        </li>
-
-        <li>
-          <strong>nc-shiny-counter</strong>
-          <p>Shiny counter for pokémon games</p>
-
-          <a href="#">Link para o repositório</a>
-        </li>
-
-        <li>
-          <strong>nc-shiny-counter</strong>
-          <p>Shiny counter for pokémon games</p>
-
-          <a href="#">Link para o repositório</a>
-        </li>
-
-        <li>
-          <strong>nc-shiny-counter</strong>
-          <p>Shiny counter for pokémon games</p>
-
-          <a href="#">Link para o repositório</a>
-        </li>
+        <RepositoryItem repository={repository}/>
+        <RepositoryItem repository={repository} />
+        <RepositoryItem repository={repository} />
+        <RepositoryItem repository={repository} />
+        <RepositoryItem repository={repository} />
       </ul>
     </section>
   );
