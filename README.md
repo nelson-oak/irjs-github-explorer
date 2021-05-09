@@ -6,7 +6,7 @@ Projeto com o intuito de apresentar os fundamentos do ReactJS
 
 | Número | Funcionalidade |
 | - | - |
-| 1 | - |
+| 1 | Listar repositórios do GitHub |
 
 ## Recursos
 
